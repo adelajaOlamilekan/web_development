@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
 }
 
-article {
+.product-article {
   border: 3px solid black;
 }
 
@@ -11,30 +11,30 @@ article {
   background-color: rgba(237, 231, 225, 1);
 }
 
-a:link,
-a:visited {
+.more-info:link,
+.more-info:visited {
   color: black;
 }
 
-a:hover,
-a:active {
+.more-info:hover,
+.more-info:active {
   text-decoration: none;
 }
 
-button {
+.add-to-cart {
   background-color: black;
   color: white;
   border: none;
   cursor: pointer;
 }
 
-button:hover {
+.add-to-cart:hover {
   color: black;
   background-color: transparent;
 }
 
-h3,
-button,
+.product-details,
+.add-to-cart,
 .page-title,
 .shipping-option {
   text-transform: uppercase;
@@ -49,6 +49,6 @@ button,
   font-size: 20px;
 }
 
-li {
+.product-features {
   list-style-type: square;
 }
