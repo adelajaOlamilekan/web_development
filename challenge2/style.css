@@ -1,4 +1,8 @@
 body {
+  font-family: sans-serif;
+}
+
+article {
   border: 3px solid black;
 }
 
@@ -7,23 +11,26 @@ body {
   background-color: rgba(237, 231, 225, 1);
 }
 
-a:link {
+a:link,
+a:visited {
   color: black;
 }
 
-a:hover {
+a:hover,
+a:active {
   text-decoration: none;
 }
 
 button {
   background-color: black;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
 button:hover {
   color: black;
   background-color: transparent;
-  border: 0px;
 }
 
 h3,
@@ -35,6 +42,7 @@ button,
 
 .shipping-option {
   font-size: 12px;
+  color: #7777;
 }
 
 .price {
