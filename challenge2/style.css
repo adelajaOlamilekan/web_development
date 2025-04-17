@@ -1,0 +1,46 @@
+body {
+  border: 3px solid black;
+}
+
+.page-title {
+  text-align: center;
+  background-color: rgba(237, 231, 225, 1);
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  color: black;
+  background-color: transparent;
+  border: 0px;
+}
+
+h3,
+button,
+.page-title,
+.shipping-option {
+  text-transform: uppercase;
+}
+
+.shipping-option {
+  font-size: 12px;
+}
+
+.price {
+  font-size: 20px;
+}
+
+li {
+  list-style-type: square;
+}
