@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 
 .product-article {
   border: 3px solid black;
-  width: 825px;
+  width: 900px;
   margin: 50px auto;
   position: relative;
 }
@@ -142,3 +143,33 @@ li:last-child {
 .color-brown {
   background-color: brown;
 }
+
+img {
+  float: left;
+  width: 250px;
+  height: 250px;
+}
+
+.pricing {
+  float: left;
+  width: 250px;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+
+.price {
+  float: left;
+}
+
+.shipping-option {
+  float: right;
+}
+
+.product-description {
+  clear: both;
+}
+/* .product-details-container {
+  float: right;
+  width: 300px;
+} */

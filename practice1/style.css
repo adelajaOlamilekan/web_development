@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,9 +12,10 @@ body {
 
 .main-header {
   background-color: #f7f7f7;
+  /* background-color: red; */
   padding: 20px 33px;
   margin-bottom: 60px;
-  height: 40px;
+  /* height: 40px; */
 }
 
 .post-header {
@@ -28,8 +30,9 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px;
-  width: 500px;
+  padding: 50px 40px;
+
+  /* width: 500px; */
 }
 
 h1,
@@ -42,7 +45,7 @@ h1 {
   font-size: 20px;
   text-transform: uppercase;
   font-style: italic;
-  color: red;
+  color: #1098ad;
 }
 
 h2 {
@@ -61,6 +64,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 /* footer p {
@@ -110,6 +114,11 @@ ul,
 ol {
   margin-left: 50px;
   margin-bottom: 20px;
+}
+
+.related-post {
+  list-style: none;
+  margin-left: 0;
 }
 
 li {
@@ -192,7 +201,7 @@ a {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
   /* position: relative; */
 }
@@ -245,4 +254,45 @@ h2::before {
 
 nav {
   text-align: center;
+}
+
+.author-img {
+  float: left;
+}
+
+#author {
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  float: left;
+  /* background-color: green; */
+  width: 825px;
+}
+
+aside {
+  float: right;
+  /* background-color: red; */
+  width: 300px;
+}
+
+footer {
+  /* background-color: yellow; */
+  clear: both;
 }
